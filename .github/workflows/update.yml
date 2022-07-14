@@ -1,0 +1,44 @@
+name: Check Update Resi Every 15 Menit
+
+on:
+  schedule:
+    - cron: "*/15 * * * *" # every 15 minute
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo content
+        uses: actions/checkout@v2
+
+      - name: Setup go
+        uses: actions/setup-go@v3
+
+      - name: Run Pantau Resi
+        id: runscript
+        run: |
+          go run .
+      - name: Add File
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add .
+      - name: Check is need to push
+        id: check_status
+        run: |
+          STATUS=$(git status --porcelain | wc -l)
+          echo "number of files that need to be committed:" $STATUS
+          echo "::set-output name=STATUS::$STATUS"
+      - name: Commit File
+        if: steps.check_status.outputs.STATUS > 0
+        run: |
+          echo "status"
+          now=$(date)
+          git commit -m "Auto Commit $now"
+      - name: Push Changes
+        if: steps.check_status.outputs.STATUS > 0
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
