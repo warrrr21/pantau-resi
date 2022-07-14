@@ -1,0 +1,46 @@
+{
+ "resi": "004056087489",
+ "status": "ON PROCESS",
+ "history": [
+  {
+   "id": 1,
+   "process": "PICKREQ",
+   "description": "Mon, 11 Jul 2022 13:03 - Terima permintaan pick up dari [Shopee]"
+  },
+  {
+   "id": 2,
+   "process": "DROP",
+   "description": "Tue, 12 Jul 2022 19:49 - Paket telah di drop di gerai [Malang Kedungkandang]"
+  },
+  {
+   "id": 3,
+   "process": "IN",
+   "description": "Tue, 12 Jul 2022 19:59 - Paket telah di input (manifested) di Malang [SiCepat Ekspres Malang Kedungkandang]"
+  },
+  {
+   "id": 4,
+   "process": "OUT",
+   "description": "Tue, 12 Jul 2022 20:55 - Paket keluar dari Malang [Malang Kedungkandang]"
+  },
+  {
+   "id": 5,
+   "process": "IN",
+   "description": "Wed, 13 Jul 2022 05:45 - Paket telah di terima di Malang [Line Haul Darat Malang]"
+  },
+  {
+   "id": 6,
+   "process": "OUT",
+   "description": "Wed, 13 Jul 2022 06:49 - Paket keluar dari Malang [Line Haul Darat Malang]"
+  },
+  {
+   "id": 7,
+   "process": "IN",
+   "description": "Wed, 13 Jul 2022 13:51 - Paket keluar dari Sidoarjo [Line Haul Darat MP Surabaya]"
+  },
+  {
+   "id": 8,
+   "process": "OUT",
+   "description": "Wed, 13 Jul 2022 13:52 - Paket keluar dari Sidoarjo [Line Haul Darat MP Surabaya]"
+  }
+ ]
+}
