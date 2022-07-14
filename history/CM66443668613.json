@@ -1,0 +1,56 @@
+{
+ "resi": "CM66443668613",
+ "status": "DELIVERED",
+ "history": [
+  {
+   "id": 1,
+   "process": "Shipment Received By Jne Counter Officer At [jakarta]",
+   "description": "Wed, 27 Apr 2022 00:16 - JAKARTA"
+  },
+  {
+   "id": 2,
+   "process": "Picked Up By Courier [jakarta]",
+   "description": "Wed, 27 Apr 2022 04:08 - JAKARTA"
+  },
+  {
+   "id": 3,
+   "process": "Processed At Sorting Center [jakarta, Temas (outbound)]",
+   "description": "Wed, 27 Apr 2022 21:09 - JAKARTA, TEMAS (OUTBOUND)"
+  },
+  {
+   "id": 4,
+   "process": "Received At Origin Gateway  [gateway Jakarta]",
+   "description": "Wed, 27 Apr 2022 23:57 - GATEWAY JAKARTA"
+  },
+  {
+   "id": 5,
+   "process": "Departed From Transit  [gateway , Jakarta]",
+   "description": "Thu, 28 Apr 2022 01:19 - GATEWAY , JAKARTA"
+  },
+  {
+   "id": 6,
+   "process": "Received At Warehouse   [bdj, Hub Kp Bispark]",
+   "description": "Thu, 28 Apr 2022 18:02 - BDJ, HUB KP BISPARK"
+  },
+  {
+   "id": 7,
+   "process": "Shipment Forwarded From Transit City To Destination City [pelaihari, Kab.banjarmasin]",
+   "description": "Thu, 28 Apr 2022 19:32 - PELAIHARI, KAB.BANJARMASIN"
+  },
+  {
+   "id": 8,
+   "process": "Received At Warehouse  [pelaihari, Kab.banjarmasin]",
+   "description": "Fri, 29 Apr 2022 08:10 - PELAIHARI, KAB.BANJARMASIN"
+  },
+  {
+   "id": 9,
+   "process": "With Delivery Courier  [banjarmasin]",
+   "description": "Fri, 29 Apr 2022 08:58 - BANJARMASIN"
+  },
+  {
+   "id": 10,
+   "process": "Delivered To [zaki  Yudi | 29-04-2022 22:47 | Banjarmasin ]",
+   "description": "Fri, 29 Apr 2022 22:47 - ZAKI  YUDI | 29-04-2022 22:47 | BANJARMASIN "
+  }
+ ]
+}
