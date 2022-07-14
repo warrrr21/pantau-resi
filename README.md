@@ -39,7 +39,7 @@ Script ini ditulis dengan cepat, sehingga kode kurang tertata rapi. Jika kamu in
 
    Saya menggunakan web [resi.id](https://resi.id/) sebagai sumber data.
 
-   Masukkan resi yang kamu miliki di web tersebut, salin linknya (misal: https://resi.id/s/123456788).
+   Masukkan resi yang kamu miliki di web tersebut, klik bagikan, lalu klik icon link (warna oranye, ujung kanan), salin linknya (misal: https://resi.id/s/123456788).
 
    Kemudian edit file [resi.json](/resi.json), masukkan link tadi. Sehingga berbentuk seperti ini:
 
